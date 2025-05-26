@@ -8,7 +8,7 @@ const Chatbot = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
   const messagesEndRef = useRef(null);
-  const API_KEY = "AIzaSyDiL5wA12s7b6JYL2Nu4AuI94ov-I9xX0c"; // Replace with your actual API key
+  const API_KEY = "Your api key"; // Replace with your actual API key
   const genAI = new GoogleGenerativeAI(API_KEY);
 
   const scrollToBottom = () => {
